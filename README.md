@@ -1,4 +1,4 @@
-📊 Earnings Surprise Prediction in the Indian Retail Sector
+# Earnings Surprise Prediction in the Indian Retail Sector
 A Data-Driven Equity Research Framework
 Project Summary
 
