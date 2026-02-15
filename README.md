@@ -1,5 +1,4 @@
 # Earnings Surprise Prediction in the Indian Retail Sector
-A Data-Driven Equity Research Framework
 Project Summary
 
 Built an end-to-end earnings surprise forecasting framework using multi-year panel data across 25+ Indian consumer-facing companies.
@@ -35,7 +34,7 @@ Models successfully captured directional EPS surprise with strong out-of-sample 
 
 2️⃣ Trading Strategy Backtest
 
-Designed both:
+Designed:
 
 Pre-earnings positioning strategy
 
@@ -47,93 +46,81 @@ Generated ~7–9% cumulative alpha over two quarters
 
 Maximum drawdown remained below 3%
 
-Risk-adjusted performance consistent with documented post-earnings announcement drift (PEAD) literature
+Risk-adjusted performance aligned with documented post-earnings announcement drift (PEAD) effects
 
-Backtesting assumptions included:
+Backtesting assumptions:
 
 Strict chronological validation
 
 No lookahead bias
 
-Realistic execution timing (post-announcement entry)
+Realistic execution timing
 
-Why This Matters for Equity Research
+📊 Data & Feature Groups
+Price & Positioning Signals
 
-The findings suggest that:
+1M / 3M momentum
 
-Analyst expectations may underreact to measurable demand and fundamental shifts
+Pre-announcement drift
 
-Price and volume positioning contain predictive information
+Volatility regime
 
-Sector-specific modeling enhances signal strength
+Abnormal trading volume
 
-Earnings drift effects remain present in Indian consumer stocks
+Fundamental Indicators
 
-The framework replicates core equity research workflows:
+Revenue growth acceleration
 
-Pre-result expectation mapping
+Margin expansion
 
-Sensitivity analysis of key drivers
+Cash flow trends
 
-Market positioning diagnostics
+Leverage dynamics
 
-Post-result drift assessment
+Estimate Signals
 
-Technical Framework (High-Level)
-Data Universe
+Consensus EPS
 
-25+ listed Indian consumer-facing companies
+Revision momentum
 
-Multi-year quarterly panel dataset
+Estimate dispersion
 
-Feature Groups
-
-Momentum & abnormal volume
-
-Revenue & margin acceleration
-
-Estimate dispersion & revisions
-
-Market regime indicators
+Sector & Regime Signals
 
 Sector momentum
 
-Models
+Market volatility regime indicators
 
-Logistic Regression (baseline interpretability)
+🧠 Modeling Framework
+
+Models evaluated:
+
+Logistic Regression (baseline)
 
 Random Forest
 
 Gradient Boosting (XGBoost / LightGBM)
 
-Validation:
+Validation approach:
 
-Walk-forward time splits
+Rolling walk-forward splits
 
-Regime-aware robustness testing
+Regime robustness testing
 
-Research Implications
+Out-of-sample evaluation
 
-The study supports three key insights:
+📈 Research Implications
 
-Earnings surprises exhibit partial predictability in sector-focused settings.
+Findings suggest:
 
-Alternative and positioning-based signals enhance forecast accuracy beyond raw fundamentals.
+Earnings surprises exhibit partial predictability in sector-focused settings
 
-PEAD-style continuation effects remain economically exploitable under disciplined risk control.
+Positioning and demand proxies add incremental signal beyond fundamentals
 
-Author
+PEAD-style continuation effects remain economically exploitable under disciplined risk control
+
+👤 Author
 
 Raghav Mundra
 Economics + Computer Science
 BITS Pilani
-
-Interested in:
-
-Equity Research
-
-Earnings modelling
-
-Event-driven strategies
-
-Market expectations & information efficiency
